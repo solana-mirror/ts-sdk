@@ -1,19 +1,11 @@
-# light-ts-init project
+# SolanaMirror Typescript SDK
 
-Include here the description of your project.
+Library that parses ATAs, transactions and generates chart data for a Solana wallet address. As of now, there are no dApp implementations -- the balances are just fetched from the wallet itself.
 
 ## Getting started
 
-1. Install the needed dependecies
+1. Install `solana-mirror`
 
 ```sh
-npm i
-yarn add
-```
-
-2. Build the project and run it
-
-```sh
-npm run build
-npm run start
+npm i solana-mirror
 ```
