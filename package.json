@@ -1,18 +1,18 @@
 {
-  "name": "ts-sdk",
+  "name": "solana-mirror",
   "version": "1.0.0",
-  "description": "Include here the description of your project.",
-  "main": "src/index.ts",
+  "description": "Retrieve current and historical data for your Solana wallet",
+  "main": "build/index.js",
   "scripts": {
     "build": "rm -rf build/ && tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
-    "start": "ts-node build/index.js",
     "test": "jest --coverage",
     "lint": "eslint src/**/*.ts --fix",
     "format": "prettier --write .",
-    "precommit": "tsc && lint-staged"
+    "precommit": "tsc && lint-staged",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "config_json",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.2",
