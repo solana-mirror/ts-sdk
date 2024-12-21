@@ -1,19 +1,3 @@
-# light-ts-init project
+# SolanaMirror Typescript SDK
 
-Include here the description of your project.
-
-## Getting started
-
-1. Install the needed dependecies
-
-```sh
-npm i
-yarn add
-```
-
-2. Build the project and run it
-
-```sh
-npm run build
-npm run start
-```
+⚠️ This library is being built natively. For the current implementation, please go [here](https://github.com/solana-mirror/ts-client)
