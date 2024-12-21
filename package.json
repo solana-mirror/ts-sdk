@@ -9,7 +9,8 @@
     "lint": "eslint src/**/*.ts --fix",
     "format": "prettier --write .",
     "precommit": "tsc && lint-staged",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "ci": "npm i && npm run build && npm run test"
   },
   "keywords": [],
   "author": "config_json",
