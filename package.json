@@ -4,7 +4,6 @@
   "description": "Include here the description of your project.",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "ts-node -r tsconfig-paths/register src/index.ts",
     "build": "rm -rf build/ && tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
     "start": "ts-node build/index.js",
     "test": "jest --coverage",
