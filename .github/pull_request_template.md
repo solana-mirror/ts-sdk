@@ -2,4 +2,4 @@
 
 - [Describe your changes here]
 
-[ ] I have not broken compatibility
+- [ ] I have not broken compatibility
